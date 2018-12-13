@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var baseURL = "http://localhost/";
-    var authReqURL = "authReq.php";
+    var authReqURL =  baseURL + "authReq.php";
     var loginURL = baseURL + "login.php";
     var logoutURL = baseURL +"logout.php";
 
