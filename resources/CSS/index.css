@@ -1,0 +1,47 @@
+.textbox {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 40%;
+    margin: auto;
+    font-size: 2em;
+    color: white;
+}
+
+.imagecontainer {
+    text-align: center;
+}
+
+.calendar {
+    width: 30%;
+    height: 30%;
+}
+
+.left-pic {
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+}
+
+.left-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.right-pic {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-right: 5%;
+}
+
+.right-pic img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 710px) {
+    .textbox {
+        font-size: 1em;
+    }
+}

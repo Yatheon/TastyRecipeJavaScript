@@ -1,0 +1,86 @@
+.pagetitle {
+    padding: 2%;
+}
+
+.pagetitle ul li {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pagetitle .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.pagetitle .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: center;
+}
+
+.weekdays li {
+    padding: 0.5em;
+    width: 14.2%;
+    color: white;
+    text-align: center;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    justify-content: space-around;
+}
+
+.day {
+    background: #0D0D0D;
+    margin: 2px;
+    width: 12%;
+    padding-top: 12%;
+    position: relative;
+}
+
+.not-current {
+    background: #727171;
+    margin: 2px;
+    width: 12%;
+    padding-top: 12%;
+    position: relative;
+}
+
+.content-day {
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+    z-index: 2;
+}
+
+.content-image {
+    position: absolute;
+    text-align: center;
+    top: 9.6%;
+    z-index: 1;
+}
+
+.content-image input {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .content {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 340px) {
+    .content > a > img {
+        width: 60%;
+        height: 60%;
+    }
+}

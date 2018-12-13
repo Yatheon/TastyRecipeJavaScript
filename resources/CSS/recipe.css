@@ -1,0 +1,127 @@
+.foodPresent img {
+    vertical-align: middle;
+    padding-top: 1%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.7em;
+}
+
+.header-recipe {
+    text-align: center;
+    font-size: 2.5em;
+    background: black;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    color: darkred;
+}
+
+.list-wrapper {
+    text-align: center;
+}
+
+.ingredients-list-item div {
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.text {
+    color: white;
+}
+
+.item-nr {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: red;
+}
+
+.message-container {
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    background-color: #222222;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.darker {
+    background-color: #0D0D0D;
+}
+
+.name {
+    float: left;
+    font-weight: bold;
+    color: #d21111;
+}
+
+.comment {
+	word-break: break-word;
+    float: right;
+    width: 100%;
+}
+
+.time {
+    float: right;
+    color: #aaa;
+}
+
+.message-container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.message-container > form {
+    float: right;
+}
+
+.textbox-wrapper {
+    text-align: center;
+}
+
+.commentTextBox {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.sendbutton-wrapper {
+    width: 30%;
+    text-align: right;
+    margin: auto;
+}
+
+.sendbutton {
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    display: inline;
+    border: 0;
+    border-radius: 5px;
+}
+
+.delbutton {
+    padding: 1px 5px 1px 5px;
+    float: right;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.sendbutton:active, .delbutton:active {
+    background-color: #940e0e;
+}
+
+@media (max-width: 660px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+}

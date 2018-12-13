@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+}
+body {
+    background-color: #333333;
+    color: white;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+
+.pagetitle {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    background: #d21111;
+}
+
+footer {
+    height: 10em;
+}
+
+.title {
+    background-color: black;
+}
+
+.title input {
+    margin: 0 auto;
+    border: none;
+    background-color: black;
+    font-size: 6em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1%;
+    color: #d21111;
+    display: block;
+    text-align: center;
+}
+
+.textField {
+    resize: none;
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    width: 7em;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*NAVBAR*/
+.accFieldError {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbutton>form{
+    background-color: aqua;
+}
+.navbutton>input {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    float: left;
+    background-color: #333333;
+    border: none;
+    padding: 12px;
+}
+.dropdown {
+    float: left;
+}
+
+.formgroup {
+    padding-right: 10px;
+    padding-top: 0.6em;
+    float: right;
+}
+.formgroup>form{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.formButton {
+    background-color: #d21111;
+    color: white;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    float: right;
+}
+
+.formButton:hover {
+    background-color: #7a0b0b;
+}
+
+.formButton:active {
+    background-color: #940e0e;
+}
+.dropbtn {
+    padding: 12px;
+    outline: none;
+    background-color: #333;
+}
+
+.dropbtn-active {
+    padding: 12px;
+    outline: none;
+    background-color: #d21111;
+}
+
+.dropdown-content {
+    width: 0;
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 13px 15px;
+    text-decoration: none;
+    outline: 1px solid black;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbutton input.active {
+    background-color: #d21111;
+}
+
+.navbutton input:hover, .dropbtn:hover, .dropdown-content a:hover {
+    background-color: #7a0b0b;
+}
+
+.navbutton input:active, .dropdown-content a:active {
+    background-color: #940e0e;
+}
+
+@media (max-width: 660px) {
+    .pagetitle {
+        font-size: 1.5em;
+    }
+
+    .title a {
+        font-size: 3em;
+    }
+
+    .navbar a {
+        font-size: 0.7em;
+    }
+
+    .dropbtn {
+        font-size: 0.7em;
+    }
+
+    .dropbtn-active {
+        font-size: 0.7em;
+    }
+}
