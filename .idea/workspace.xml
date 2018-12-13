@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91fc017-dcf1-4961-a28e-bcb35b870fff" name="Default Changelist" comment="" />
+    <list default="true" id="d91fc017-dcf1-4961-a28e-bcb35b870fff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/fragments/showComments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/jquery-3.3.1.min.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +29,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.48975545">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/fragments/showComments.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="38" column="41" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -128,8 +122,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/pancakes.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="19" />
+                <state relative-caret-position="385">
+                  <caret line="163" column="30" lean-forward="true" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -174,7 +168,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/meatballs.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
+                <state relative-caret-position="-1264">
                   <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
                 </state>
               </provider>
@@ -206,7 +200,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TastyRecipeJS" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -425,7 +419,7 @@
       <workItem from="1543708602057" duration="2455000" />
       <workItem from="1543751875347" duration="12816000" />
       <workItem from="1544631643018" duration="24424000" />
-      <workItem from="1544699209039" duration="32015000" />
+      <workItem from="1544699209039" duration="32227000" />
     </task>
     <servers />
   </component>
@@ -444,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139498000" />
+    <option name="totallyTimeSpent" value="139710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="-8" width="1873" height="1096" extended-state="6" />
@@ -776,17 +770,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pancakes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/meatballs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="-1264">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/meatballs.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/pancakes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="385">
+          <caret line="163" column="30" lean-forward="true" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
         </state>
       </provider>
     </entry>
