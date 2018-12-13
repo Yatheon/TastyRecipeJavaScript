@@ -17,9 +17,9 @@ $(document).ready(function () {
     });
     $("body").on("click", "#sendBTN", function() {
 
-        $.post(writeURL, $(this).parent().siblings("form").children("div").children().serialize());
+        $.post(writeURL, $(this).parent().siblings("form").children("div").children().serialize(), fuction(){  reloadConversation();});
         $("#commentBox").val("Type message..");
-        reloadConversation();
+      
     });
     $("body").on("click", "#loginBTN", function() {
         reloadConversation();
